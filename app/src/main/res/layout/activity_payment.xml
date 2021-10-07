@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Payment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Payment Options"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/phonepe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Pe"
+        android:onClick="pe"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/freecharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Freecharge"
+        android:onClick="free"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/amazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon"
+        android:onClick="zon"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/paytm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paytm"
+        android:onClick="tm"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

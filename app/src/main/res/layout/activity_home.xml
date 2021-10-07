@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About CleanX"
+                android:textSize="30dp"
+                android:layout_gravity="center"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/gal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CleanX is a platform by which you can easily dispose your waste which can be
+recycled. It is a mobile application or website in which user can easily register
+themselves. With the help of this app, the user can contact with us and we will provide
+them with doorstep facility to pickup their waste products. The waste is categorized
+into different categories. Such as papers, plastic, clothes, metals, Bio-degradable,
+glass and bottles, electronics and others. Then after it will passed to recycling unit."
+                android:textSize="30dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/req"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="500dp"
+                android:onClick="request"
+                android:text="Request For Pickup"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

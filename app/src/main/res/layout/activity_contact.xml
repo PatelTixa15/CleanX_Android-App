@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Contact">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT DETAILS"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EARN REWARD OUT OF GARBAGE"
+        android:textSize="30dp"
+        android:textColor="#EE2F0D"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No: 7555444499"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Office Address: C/o Vg Enterprise, opp visat circle,
+                       Ahmedabad -382545"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail: vgec@gmail.com "
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="#924DE1"
+        android:textColor="#F1DB1B"
+        android:onClick="map1"
+        android:text="View Map"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
