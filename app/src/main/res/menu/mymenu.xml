@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"></item>
+    <item android:title="Your Orders"
+        android:id="@+id/history"></item>
+    <item android:title="Request For Pickup"
+        android:id="@+id/detail"></item>
+    <item android:title="Saved Address"
+        android:id="@+id/saved"></item>
+    <item android:title="Rating"
+        android:id="@+id/rating"></item>
+    <item android:title="Online Payment"
+        android:id="@+id/pay"></item>
+    <item android:title="Contact"
+        android:id="@+id/contact"></item>
+    <item android:title="Logout"
+        android:id="@+id/logout"></item>
+
+
+</menu>
